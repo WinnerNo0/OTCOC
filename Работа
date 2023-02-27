@@ -1,0 +1,16 @@
+using System;
+
+namespace ConsoleApp3
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            int x, y;
+            Console.WriteLine("Введите x");
+            x = Convert.ToInt32(Console.ReadLine());
+            y = 5 * x + 20;
+            Console.WriteLine("y = " + y);
+        }
+    }
+}
