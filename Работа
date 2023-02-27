@@ -9,7 +9,7 @@ namespace ConsoleApp3
             int x, y;
             Console.WriteLine("Введите x");
             x = Convert.ToInt32(Console.ReadLine());
-            y = 5 * x + 20;
+            y = 2*(5 * x + 20);
             Console.WriteLine("y = " + y);
         }
     }
